@@ -17,22 +17,21 @@ Este proyecto es una aplicación de Java que consume la API de NASA para obtener
 - **Haz clic en los enlaces de las fotos para abrirlas en tu navegador o en la ventana independiente de visualización de imágenes.
 
 ## Estructura del Proyecto
-- **Paquete uce.edu.ec.container
-Controller: Controlador principal que maneja la interacción con la interfaz gráfica y el servicio de la API.
 
-- **Paquete uce.edu.ec.main
-Main: Clase principal que inicia la aplicación Spring Boot.
+### Paquete `uce.edu.ec.container`
+- **Controller**: Controlador principal que maneja la interacción con la interfaz gráfica y el servicio de la API.
 
-- **Paquete uce.edu.ec.model
-Camera: Clase que representa una cámara del rover.
+### Paquete `uce.edu.ec.main`
+- **Main**: Clase principal que inicia la aplicación Spring Boot.
 
-Photo: Clase que representa una foto tomada por el rover.
+### Paquete `uce.edu.ec.model`
+- **Camera**: Clase que representa una cámara del rover.
+- **Photo**: Clase que representa una foto tomada por el rover.
+- **Rover**: Clase que representa un rover.
 
-Rover: Clase que representa un rover.
+### Paquete `uce.edu.ec.service`
+- **ApiService**: Servicio que consume la API de NASA y filtra las fotos según los parámetros proporcionados.
 
-- **Paquete uce.edu.ec.service
-ApiService: Servicio que consume la API de NASA y filtra las fotos según los parámetros proporcionados.
-
-- **Paquete uce.edu.ec.view
-Window: Clase que define la ventana principal de la aplicación.
-ImageViewer: Clase que define la ventana de visualización de imágenes.
+### Paquete `uce.edu.ec.view`
+- **Window**: Clase que define la ventana principal de la aplicación.
+- **ImageViewer**: Clase que define la ventana de visualización de imágenes.
