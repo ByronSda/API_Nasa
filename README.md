@@ -12,10 +12,10 @@ Este proyecto es una aplicación de Java que consume la API de NASA para obtener
 
 ## Uso
 
-- **Al iniciar la aplicación, verás una ventana con opciones para seleccionar la cámara, el rover y el sol.
-- **Selecciona los filtros deseados y haz clic en "Search".
-- **Las fotos obtenidas se mostrarán en la parte inferior de la ventana.
-- **Haz clic en los enlaces de las fotos para abrirlas en tu navegador o en la ventana independiente de visualización de imágenes.
+- Al iniciar la aplicación, verás una ventana con opciones para seleccionar la cámara, el rover y el sol.
+- Selecciona los filtros deseados y haz clic en "Search".
+- Las fotos obtenidas se mostrarán en la parte inferior de la ventana.
+- Haz clic en los enlaces de las fotos para abrirlas en tu navegador o en la ventana independiente de visualización de imágenes.
 
 ## Estructura del Proyecto
 
